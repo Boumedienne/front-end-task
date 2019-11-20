@@ -20,3 +20,32 @@
 .App-link {
   color: #09d3ac;
 }
+
+.read-more__text--hide {
+  max-height: 0;
+  font-size: 0;
+  opacity: 0;
+ }
+
+ /*Duration of film hiethlieght*/
+ .duration{
+  /*display: inline-block; */
+    position: relative;
+    bottom: 16px;
+    left: 75%;
+    /* margin: 36px; */
+    /* margin-bottom: -9px; */
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2px 4px;
+    border-radius: 2px;
+    letter-spacing: .5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+ }
+
+ .pagination{
+   position: fixed;
+   top:88%;
+ }

@@ -93,12 +93,12 @@ class ModalContainer extends React.Component {
 
 
     return (
-      <>
+      <div className='globalContainer'>
         <Header as='h1'> the best videos of the month in Vimeo </Header>
 
         {error?<div>Somthing is wrong</div>
      :isLoadingContent ? (
-      <Item.Group>
+      <Item.Group >
  
         {result.map(item =>
     
@@ -148,7 +148,7 @@ class ModalContainer extends React.Component {
               ellipsisItem={false}
               className={'pagination'}
             />} 
-      </>
+      </div>
 
     )
 

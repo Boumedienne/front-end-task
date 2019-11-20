@@ -49,3 +49,10 @@
    position: fixed;
    top:88%;
  }
+
+ .globalContainer{
+  width: 1212px !important;
+  margin: 0 auto;
+  position: relative;
+  zoom: 1;
+ }

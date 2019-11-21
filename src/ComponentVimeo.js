@@ -72,7 +72,7 @@ export const ItemVimeo = (props) => {
           onLoad={handleLoaded}
         />
 
-        <span className='duration'>{props.duration}</span>*/}
+        <span className='duration'>{props.duration}</span>
     </div>
       <Grid.Column width={12} >
         <Header>{props.name}</Header>

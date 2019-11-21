@@ -29,15 +29,13 @@
 
  /*Duration of film hiethlieght*/
  .duration{
-  /*display: inline-block; */
+    display: inline-block;
     position: relative;
-    bottom: 16px;
-    left: 75%;
-    /* margin: 36px; */
-    /* margin-bottom: -9px; */
+    bottom: 11px;
+    float: right;
+    right: 15px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 2px 4px;
     border-radius: 2px;
     letter-spacing: .5px;
     font-size: 1.2rem;
@@ -46,9 +44,22 @@
  }
 
  .pagination{
-   position: fixed;
-   top:88%;
+  position: fixed;
+  top: 83%;
+  left: 35%;
  }
+
+ .carditem{
+  background-color: #fff;
+  margin-bottom: 1px;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-radius: 8px;
+ }
+
+ .ui.active.centered.inline.loader.loaderimage {
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
  .globalContainer{
   width: 1212px !important;

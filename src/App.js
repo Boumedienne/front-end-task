@@ -131,7 +131,7 @@ class ModalContainer extends React.Component {
 
     return (
       <div className='globalContainer'>
-        <Header as='h1'> the best videos of the month in Vimeo </Header>
+        <Header as='h1'  style={{marginTop: 25,marginBottom: 37}}> the best videos of the month in Vimeo </Header>
 
         {error ? <div>Somthing is wrong</div>
           : isLoadingContent ? (

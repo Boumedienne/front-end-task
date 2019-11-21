@@ -84,12 +84,12 @@ export const ItemVimeo = (props) => {
         </Container>
         <Item>
           <Item.Extra style={{top: 33,position: 'relative'}}>
-            <Label primary floated='right'>
+            <Label primary floated='right' className='footerinfo'>
               <Icon name='language' />:
             {props.language}
 
             </Label>
-            <Label >
+            <Label className='footerinfo'>
               <Icon name='user circle' />
               {props.username}
 

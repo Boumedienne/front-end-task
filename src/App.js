@@ -141,9 +141,9 @@ class ModalContainer extends React.Component {
               {isLoadingContentScroll ?
                 <Message>
 
-                  <p>
+                  <p style={{textAlign:'center'}}>
                     Is loading more videos
-    </p>
+                 </p>
                 </Message> : null}
             </Item.Group>
 

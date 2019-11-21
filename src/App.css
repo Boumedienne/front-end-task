@@ -67,3 +67,11 @@
   position: relative;
   zoom: 1;
  }
+/** 
+CSS FOR LANGUAGE AND USER INFOS
+**/
+ .ui.label.footerinfo{
+  background: white;
+  border: 1px solid rebeccapurple;
+  color: black;
+ }
